@@ -33,3 +33,7 @@ img {
   	margin-left: auto;
   	margin-right: auto;
   }
+
+  ul {
+    text-align: center;
+    list-style-type: none;
