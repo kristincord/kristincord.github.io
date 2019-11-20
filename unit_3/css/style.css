@@ -26,6 +26,15 @@ nav a{
 	margin-right: 20px;
 }
 
+#left {
+	text-align: left;
+	padding: 10px;
+}
+
+.right {
+	text-align: right;
+}
+
 img {
 	width: 65%;
 	padding: 20px;
