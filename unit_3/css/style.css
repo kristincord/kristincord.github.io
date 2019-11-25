@@ -1,48 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins|Rock+Salt&display=swap);
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
 body {
-	background-size: cover;
 	background-color: #F0E9E9;
-	color: #2B2D2F;
-	font-family: Verdana, sans-serif;
-	text-align: center;
+	color: #565656;
+	font-family: "Poppins", sans-serif;
+	font-size: 18px; /*1em=16px*/
+
 	
 }
 
 header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: "Poppins", sans-serif;
 	background-color: #FAD9D9;
 	text-align: center;
+	padding: 10px;
 }
 
 
-h1, h3 {
+h1 {
 	color:#565656;
+	font-family: 'Rock Salt', cursive;
 }
 
 h3 {
-	font-style: italic;
+	color:#565656;
+	font-family: 'Rock Salt', cursive;
+
 }
 
 nav a{
 	margin-right: 20px;
+	text-transform: uppercase;	
+	border: none;
+	color: #ffffff;
 }
+
+nav a:last-child{
+	margin-right: 0;
+}
+
 
 #left {
 	text-align: left;
 	padding: 10px;
+	letter-spacing: 2px;
 }
 
 .right {
 	text-align: right;
+	letter-spacing: 2px;
+
 }
 
+a { 
+	text-decoration: none;
+	color: #565656;
+	border-bottom: 1px solid black;
+	padding-bottom: 2px;
+	 }
+
+
 img {
-	width: 65%;
-	padding: 20px;
+	width: 100%;
 	display: block;
   	margin-left: auto;
-  	margin-right: auto;
+  	
   }
 
+hr {
+	border: none;
+	background-color: #565656;
+	height: 1.5px;
+	width: 100%;
+	margin: 2em auto;
+
+}
+
+section {
+	text-align: center;
+	width: 100%;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto; 
+}
   ul {
-    text-align: center;
+    text-align: left;
     list-style-type: none;
