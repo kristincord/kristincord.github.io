@@ -11,7 +11,6 @@ body {
 	color: #565656;
 	font-family: "Poppins", sans-serif;
 	font-size: 18px; /*1em=16px*/
-	
 
 	
 }
@@ -83,7 +82,6 @@ img {
 	width: 100%;
 	display: block;
   	margin-left: auto;
-  	
   }
 
 hr {
@@ -92,7 +90,6 @@ hr {
 	height: 1.5px;
 	width: 100%;
 	margin: 2em auto;
-
 }
 
 section {
@@ -102,6 +99,11 @@ section {
 	margin-left: auto;
 	margin-right: auto; 
 }
-  ul {
+  
+ul {
     text-align: left;
     list-style-type: none;
+}
+
+
+
