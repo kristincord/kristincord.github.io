@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Poppins|Rock+Salt&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,600|Roboto|Rock+Salt&display=swap);
 
 *{
 	margin: 0;
@@ -11,6 +11,7 @@ body {
 	color: #565656;
 	font-family: "Poppins", sans-serif;
 	font-size: 18px; /*1em=16px*/
+	
 
 	
 }
@@ -31,9 +32,16 @@ h1 {
 	font-family: 'Rock Salt', cursive;
 }
 
+h2 {
+	font-weight: bold;
+
+}
+
 h3 {
 	color:#565656;
 	font-family: 'Rock Salt', cursive;
+	text-align: left;
+	padding-bottom: .5em;
 
 }
 
@@ -64,10 +72,12 @@ nav a:last-child{
 a { 
 	text-decoration: none;
 	color: #565656;
-	border-bottom: 1px solid black;
-	padding-bottom: 2px;
 	 }
 
+#email {
+	border-bottom: 1px solid black;
+	padding-bottom: 2px;
+}
 
 img {
 	width: 100%;
