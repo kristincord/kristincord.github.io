@@ -1,22 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,600|Roboto|Rock+Salt&display=swap);
-
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
-
 body {
-	background-color: red;
-	color: #F0E9E9;
+	background-color: #F0E9E9;
+	color: #565656;
 	font-family: "Poppins", sans-serif;
-	font-size: 18px; /*1em=18px*/
+	font-size: 18px;
+	/*1em=18px*/
 	line-height: 1.5;
 	padding-top: 200px;
-
-	
 }
-
 header {
 	display: flex;
 	justify-content: space-between;
@@ -26,121 +22,123 @@ header {
 	text-align: center;
 	padding: 50px;
 	position: fixed;
-	width: 100%; 
-	top: 0; 
+	width: 100%;
+	top: 0;
 	left: 0;
 }
-
-
 h1 {
-	color:#565656;
+	color: #565656;
 	font-family: 'Rock Salt', cursive;
 	font-size: 3em;
 }
-
 h2 {
 	font-weight: 600;
 	font-size: 2em;
-
 }
-
 h3 {
-	color:#565656;
+	color: #565656;
 	font-family: 'Rock Salt', cursive;
 	text-align: left;
 	padding-bottom: .5em;
 	font-size: 1em;
-
 }
-
-nav a{
+nav a {
 	margin-right: 20px;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 	border: none;
 	color: #ffffff;
-	background-color: #E8C66A;
+	text-align: right;
+	letter-spacing: 2px;
 }
-
-nav a:last-child{
+nav a:last-child {
 	margin-right: 0;
 }
 
-
-#left {
-	text-align: left;
-	padding: 10px;
-	letter-spacing: 2px;
-}
-
-.right {
-	text-align: right;
-	letter-spacing: 2px;
-
-}
-
-a { 
+a {
 	text-decoration: none;
 	color: #565656;
-	 }
-
-a:hover {
-	background-color: #aaaaa
 }
-
 #email {
 	border-bottom: 1px solid black;
 	padding-bottom: 2px;
 }
-
 img {
 	width: 100%;
 	display: block;
-  	margin-left: auto;
-  }
-
+	margin-left: auto;
+	padding-bottom: 50px;
+}
 hr {
 	border: none;
 	background-color: #565656;
 	height: 1.5px;
 	width: 100%;
 	margin: 2em auto;
-    padding: 20px;
+	padding: 5px;
 }
-
 section {
 	text-align: center;
 	width: 100%;
 	max-width: 900px;
 	margin-left: auto;
-	margin-right: auto; 
-	background-color: #FFE2B8;
-	border: 1px black solid;
-    padding: 20px;
+	margin-right: auto;
+	padding: 20px;
 }
-  
 ul {
-    text-align: left;
-    list-style-type: none;
+	text-align: left;
+	list-style-type: none;
 }
 
+nav a:hover {
+	background-color: #565656;
+	padding: 7px;
+}
 
+#two_column {
+	padding: 5px;
+}
+
+#left {
+	padding: 10px;
+	float: left;
+	width: 37%;
+	text-align: left; 
+	font-size: 1.15em; 
+
+
+}
+
+#right {
+	background-color: #FDFDFD;
+	border: 1 px black solid;
+	padding: 10px;
+	float: right;
+	width: 55%;
+
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#contact {
+	margin-right: 0 auto; 
+}
 article {
-	background-color: #E89C6C;
-	border: 1px black solid;
-    padding: 20px;
-}
-
-aside { 
-	background-color: #FFC675; 
-	border: 1px black solid;
-    padding: 20px;
+	padding: 5px;
+	text-align: left;
 }
 
 
 footer {
-	background-color: #FF957E;
-	border: 1px black solid;
-    padding: 20px;
+	background-color: #FAD9D9;
+	padding: 20px;
+	font-size: .75em;
 }
 
 
