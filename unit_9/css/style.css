@@ -60,7 +60,6 @@ nav a {
 	text-align: right;
 	letter-spacing: 2px;
 }
-
 nav a:last-child {
 	margin-right: 0;
 }
@@ -69,19 +68,16 @@ a {
 	text-decoration: none;
 	color: #565656;
 }
-
 #email {
 	border-bottom: 1px solid black;
 	padding-bottom: .5px;
 }
-
 img {
 	width: 100%;
 	display: block;
 	margin: auto;
 	padding-bottom: 50px;
 }
-
 hr {
 	border: none;
 	background-color: #565656;
@@ -90,7 +86,6 @@ hr {
 	margin: 2em auto;
 	padding: 5px;
 }
-
 section {
 	width: 100%;
 	max-width: 900px;
@@ -118,6 +113,7 @@ section {
 	background-repeat: no-repeat;
 	background-size: cover;
 	opacity: .75;
+
 }
 
 #hero figure:after{
@@ -197,10 +193,13 @@ aside {
 }
 
 
+}
 article {
 	display: block;
 	padding: 5px;
 	text-align: left;
+
+
 }
 
 
@@ -237,6 +236,9 @@ footer {
 		margin-left: 10%;
 	}
 
+	#hero figure img{ 		
+		transform: translateX(90%);
+	}
 
 	#right {
 		padding: 10px;
